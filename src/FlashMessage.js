@@ -245,8 +245,8 @@ export const DefaultFlash = ({
 DefaultFlash.propTypes = {
   message: MessagePropType,
   renderFlashMessageIcon: PropTypes.func,
-  textProps: {},
-  titleProps: {}
+  textProps: PropTypes.object,
+  titleProps: PropTypes.object
 };
 
 /**
